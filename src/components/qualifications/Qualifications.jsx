@@ -47,11 +47,11 @@ const Qualifications = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">ICSE(Grade:92%)</h3>
+                <h3 className="qualification__title">ICSE(Grade:94%)</h3>
                 <span className="qualification__subtitle">
-                  The Bishop's School, Camp
+                  The Rosary School, Pune
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Grad May 2018<br/><br/><br/>
+                  <i className="uil uil-calendar-alt"></i> Grad May 2019<br/><br/><br/>
                 </div>
                 </span>
               </div>
@@ -70,11 +70,11 @@ const Qualifications = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title"> ISC(Grade:87%)</h3>
+                <h3 className="qualification__title"> HSC(Grade:85%)</h3>
                 <span className="qualification__subtitle">
-                  The Bishop's School, Camp
+                  The Arham Junior College, Camp
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Grad June 2020<br/><br/><br/>
+                  <i className="uil uil-calendar-alt"></i> Grad June 2021<br/><br/><br/>
                 </div>
                 </span>
               </div>
@@ -82,11 +82,11 @@ const Qualifications = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">B.Tech in CSE (CGPA:8.07)</h3>
+                <h3 className="qualification__title">B.Tech in CSE (CGPA:8.18)</h3>
                 <span className="qualification__subtitle">
                   MIT ADT University
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Grad May 2024<br/>
+                  <i className="uil uil-calendar-alt"></i> Grad June 2025<br/>
                 </div>
                 </span>
               </div>
@@ -119,9 +119,9 @@ const Qualifications = () => {
                   MIT ADT University
                 </h3>
                 <span className="qualification__subtitle">
-                  Teaching Assistant
+                 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 07/2021-05/2022 <br/><br/><br/>
+                  <i className="uil uil-calendar-alt"></i> 06/2021-06/2025 <br/><br/><br/>
                 </div>
                 </span>
               </div>
@@ -131,12 +131,12 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  CodeChef MITSOE Chapter
+                     Association of Computer Engineering Students 
                 </h3>
                 <span className="qualification__subtitle">
-                  President
+                Secretary 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 08/2021-08/2022<br/><br/><br/>
+                  <i className="uil uil-calendar-alt"></i>08/2022-08/2023 <br/><br/><br/>
                 </div>
                 </span>
               </div>
@@ -157,12 +157,12 @@ const Qualifications = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  The Eastern Royal Company
+                Google Developer students club
                 </h3>
                 <span className="qualification__subtitle">
-                  Flutter Developer
+                 Management Team Lead
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 06/2022-12/2022 <br/><br/><br/>
+                  <i className="uil uil-calendar-alt"></i>09/2022-05/2024 <br/><br/><br/>
                 </div>
                 </span>
               </div>
@@ -172,12 +172,14 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Association of Computer Engineering Students
+                
+                  Salestine Technologies
+
                 </h3>
                 <span className="qualification__subtitle">
-                  President
+                Software Developer
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 08/2022-08/2023<br/><br/>
+                  <i className="uil uil-calendar-alt"></i> 07/2024-12/2024 <br/><br/>
                 </div>
                 </span>
               </div>
@@ -189,7 +191,7 @@ const Qualifications = () => {
             </div>
 
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -198,36 +200,19 @@ const Qualifications = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  Techno Cultural Persona Fest
+                 Aerp Tech Pune
                 </h3>
                 <span className="qualification__subtitle">
-                  Head Student Co-ordinator
+                  C#/.NET developer
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 02/2022-03/2022 <br/><br/><br/>
+                  <i className="uil uil-calendar-alt"></i> 07/2024-09/2024<br/><br/><br/>
                 </div>
                 </span>
               </div>
-            </div>
+            </div> */}
 
 
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  5th National Conference
-                </h3>
-                <span className="qualification__subtitle">
-                  Head Student Co-ordinator
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 04/2023-05/2023<br/>
-                </div>
-                </span>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
+        
 
 
             

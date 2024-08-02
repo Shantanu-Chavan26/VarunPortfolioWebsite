@@ -1,3 +1,10 @@
+body
+{
+    background: linear-gradient(to right, #FAF0E6, #F5F5DC);
+
+
+}
+
 .about__container{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;

@@ -10,7 +10,14 @@ import Footer from "./components/footer/Footer";
 import ScrollDown from "./components/home/ScrollDown";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
+  
   return (
     <div className="App">
       <Header />

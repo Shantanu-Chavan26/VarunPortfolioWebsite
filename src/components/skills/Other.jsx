@@ -11,7 +11,7 @@ const Other = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Teaching</h3>
+              <h3 className="skills__name">Project Management</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -20,7 +20,7 @@ const Other = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Debating</h3>
+              <h3 className="skills__name">Teaching</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

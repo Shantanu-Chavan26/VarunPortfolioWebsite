@@ -74,8 +74,8 @@
 
 .qualification__line{
     display: block;
-    width: 1px;
-    height: 100%;
+    width: 1.5px;
+    height: 90%;
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }

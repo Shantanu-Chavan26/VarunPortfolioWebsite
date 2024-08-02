@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Varun Poojary</h1>
+        <h1 className="footer__title">Shantanu Chavan</h1>
         <ul className="footer__list">
         <li>
             <a href="#home" className="footer__link">
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.linkedin.com/in/varun-poojary7/"
+            href="https://www.linkedin.com/in/shantanu-chavan-24aa17246/"
             className="footer__social-link"
             target="_blank"
           >
@@ -54,7 +54,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://leetcode.com/VarunPoojary/"
+            href="https://leetcode.com/u/Shantanu_26/"
             className="footer__social-link"
             target="_blank"
           >
@@ -62,7 +62,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/VarunPoojary"
+            href="https://github.com/Shantanu-Chavan26"
             className="footer__social-link"
             target="_blank"
           >
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-            &#169; Varun Poojary. All rights reserved
+            &copy; Shantanu Chavan. All rights reserved
 
         </span>
       </div>

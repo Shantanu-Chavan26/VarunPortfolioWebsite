@@ -12,7 +12,7 @@ const Programming = () => {
 
             <div>
               <h3 className="skills__name">C++</h3>
-              <span className="skills__level">Advanced</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ const Programming = () => {
 
             <div>
               <h3 className="skills__name">Java</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Begineer</span>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const Programming = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">C#</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>

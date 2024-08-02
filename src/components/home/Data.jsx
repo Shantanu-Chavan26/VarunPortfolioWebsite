@@ -3,7 +3,7 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">Varun Poojary
+        <h1 className="home__title">Shantanu Chavan
         <svg
                   width="36"
                   height="36"
@@ -55,10 +55,13 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">
-                Flutter Developer
+               Software Developer
             </h3>
             <p className="home__description">
-            A results-driven, enthusiastic, creative Flutter Developer with excellent communication skills, ready to give my best to achieve remarkable outcomes.
+            Skilled multitasker with a superior work ethic and good teamwork,
+ problem-solving, and organizational skills. Willing to take on any task
+ to help the team. Reliable and dedicated team player with a
+ hardworking and resourceful approach.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello
