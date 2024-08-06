@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(to right, #FAF0E6, #F5F5DC);
-  border-top: 1ps solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Corrected the unit from 'ps' to 'px' */
 }
 
 .footer__container {
@@ -44,8 +44,8 @@
   border-radius: 0.5rem;
   display: inline-flex;
   align-items: center;
+  justify-content: center; /* Ensures the icon is centered within the link */
 }
-
 
 /* .footer__social-link-1 {
   background-color: var(--title-color);
@@ -70,9 +70,17 @@
 }
 
 @media screen and (max-width: 992px) {
-    .footer__social-link{
-        padding: 0.25rem;
-        border-radius: 0.25rem;
-        font-size: 1rem;
-    }
+  .footer__list,
+  .footer__social {
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center;
+  }
+
+  .footer__social-link {
+    width: auto;
+    height: auto;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
 }
