@@ -26,6 +26,8 @@
   justify-content: center;
   column-gap: 1.5rem;
   margin-bottom: var(--mb-2);
+  font-weight: 600;
+  font-size: 1.5vw;
 }
 
 .footer__social {
@@ -74,6 +76,7 @@
   .footer__social {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center;
+    font-size: 1vw;
   }
 
   .footer__social-link {
@@ -83,4 +86,6 @@
     border-radius: 0.25rem;
     font-size: 1rem;
   }
+
+  
 }
