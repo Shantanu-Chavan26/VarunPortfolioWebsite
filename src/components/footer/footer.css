@@ -74,7 +74,7 @@
 @media screen and (max-width: 992px) {
   .footer__list,
   .footer__social {
-    flex-direction: column; /* Stack items vertically on mobile */
+    flex-direction: row; /* Stack items vertically on mobile */
     align-items: center;
     font-size: 1vw;
   }
