@@ -3,10 +3,9 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3rem;
+  --header-height: 3.75rem; /* Increased by 25% */
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
@@ -18,31 +17,30 @@
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  /* Increased font sizes by 25% */
+  --big-font-size: 4.375rem; /* was 3.5rem */
+  --h1-font-size: 2.8125rem; /* was 2.25rem */
+  --h2-font-size: 1.875rem; /* was 1.5rem */
+  --h3-font-size: 1.5625rem; /* was 1.25rem */
+  --normal-font-size: 1.25rem; /* was 1rem */
+  --small-font-size: 1.09375rem; /* was 0.875rem */
+  --smaller-font-size: 1.015625rem; /* was 0.813rem */
+  --tiny-font-size: 0.78125rem; /* was 0.625rem */
 
   /*========== Font weight ==========*/
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
+  /* Increased margins by 25% */
+  --mb-0-25: 0.3125rem; /* was 0.25rem */
+  --mb-0-5: 0.625rem; /* was 0.5rem */
+  --mb-0-75: 0.9375rem; /* was 0.75rem */
+  --mb-1: 1.25rem; /* was 1rem */
+  --mb-1-5: 1.875rem; /* was 1.5rem */
+  --mb-2: 2.5rem; /* was 2rem */
+  --mb-2-5: 3.125rem; /* was 2.5rem */
+  --mb-3: 3.75rem; /* was 3rem */
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -53,13 +51,13 @@
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
+    --big-font-size: 3.4375rem; /* was 2.75rem */
+    --h1-font-size: 1.875rem; /* was 1.5rem */
+    --h2-font-size: 1.5625rem; /* was 1.25rem */
+    --h3-font-size: 1.25rem; /* was 1rem */
+    --normal-font-size: 1.1725rem; /* was 0.938rem */
+    --small-font-size: 1.015625rem; /* was 0.813rem */
+    --smaller-font-size: 0.9375rem; /* was 0.75rem */
   }
 }
 
@@ -115,7 +113,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 7.5rem 0 2.5rem; /* Increased by 25% */
 }
 
 .section__title {
@@ -126,7 +124,7 @@ img {
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: 5rem; /* Increased by 25% */
 }
 
 .section__title,
@@ -143,7 +141,7 @@ img {
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1.875rem; /* Increased by 25% */
 }
 
 /*=============== BUTTONS ===============*/
@@ -151,8 +149,8 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 1.5625rem 2.5rem; /* Increased by 25% */
+  border-radius: 1.25rem; /* Increased by 25% */
   font-weight: var(--font-medium);
 }
 
@@ -161,7 +159,7 @@ img {
 }
 
 .button__icon {
-  margin-left: var(--mb-0-5);
+  margin-left: var(--mb-0-625); /* Increased by 25% */
 }
 
 .button--flex {
@@ -173,17 +171,17 @@ img {
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1-875); /* Increased by 25% */
+    margin-right: var(--mb-1-875); /* Increased by 25% */
   }
 
   .button {
-    padding: 1rem 1.75rem;
+    padding: 1.25rem 2.1875rem; /* Increased by 25% */
   }
 
   .button__icon {
-    width: 22px;
-    height: 22px;
+    width: 27.5px; /* Increased by 25% */
+    height: 27.5px; /* Increased by 25% */
   }
 }
 
@@ -194,25 +192,26 @@ img {
   }
 
   .section {
-    padding: 2rem 0 4rem;
+    padding: 2.5rem 0 5rem; /* Increased by 25% */
   }
 
   .section__subtitle {
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-3-75); /* Increased by 25% */
   }
 }
 
 @media screen and (max-width: 576px) {
+  /* Additional styles if needed */
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
   :root {
-    --big-font-size: 2.25rem;
+    --big-font-size: 2.8125rem; /* was 2.25rem */
   }
 
   .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    margin-left: var(--mb-1-25); /* Increased by 25% */
+    margin-right: var(--mb-1-25); /* Increased by 25% */
   }
 }

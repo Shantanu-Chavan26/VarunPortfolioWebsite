@@ -25,7 +25,7 @@ const About = () => {
         </motion.div>
         <div className="about__data">
           <Info />
-          <p className="about__description">
+          {/* <p className="about__description">
             Skilled multitasker with a superior work ethic and strong teamwork,
             problem-solving, and organizational skills. Proficient in website
             development using the MERN stack (MongoDB, Express.js, React,
@@ -35,7 +35,7 @@ const About = () => {
             practices. Willing to take on any task to help the team. Reliable
             and dedicated team player with a hardworking and resourceful
             approach.
-          </p>
+          </p> */}
           <a download="" href={CV} className="button button--flex">
             Download Resume
             <svg

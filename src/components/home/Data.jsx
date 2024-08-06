@@ -58,10 +58,7 @@ const Data = () => {
                Software Developer
             </h3>
             <p className="home__description">
-            Skilled multitasker with a superior work ethic and good teamwork,
- problem-solving, and organizational skills. Willing to take on any task
- to help the team. Reliable and dedicated team player with a
- hardworking and resourceful approach.
+            Skilled multitasker with a strong work ethic, teamwork, problem-solving, and organizational skills. Proficient in MERN stack development and experienced in front-end and back-end technologies. Expertise in Docker, Kubernetes, and CI/CD practices. Reliable and dedicated team player with a hardworking and resourceful approach.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello
